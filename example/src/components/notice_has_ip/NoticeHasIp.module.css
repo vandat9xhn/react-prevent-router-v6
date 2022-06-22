@@ -1,0 +1,35 @@
+.NoticeHasIp {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0 0 0 / 25%);
+}
+
+.NoticeHasIp_contain {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.NoticeHasIp_btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* . */
+.NoticeHasIp_btn {
+  margin: 10px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid rgb(0 0 0 / 25%);
+}
+.NoticeHasIp_btn-cancel {
+  background-color: rgb(39, 36, 228);
+}
