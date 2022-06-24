@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { handleClickPreventLinkType } from '../type';
+import { handleClickPreventLinkType, handleToggleHasIp } from '../type';
 
 //
 export const ContextPreventRouter = React.createContext<{
@@ -8,7 +8,7 @@ export const ContextPreventRouter = React.createContext<{
   refHrefHasInput: React.MutableRefObject<string>;
   refHasInputFromAppLink: React.MutableRefObject<boolean>;
   //
-  handleHasInput: (has_input: boolean) => void;
+  handleToggleHasIp: handleToggleHasIp
   changeHistory: () => void;
   handleClickPreventLink: handleClickPreventLinkType;
 }>(null);

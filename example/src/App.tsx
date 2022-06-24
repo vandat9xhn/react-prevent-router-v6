@@ -12,7 +12,6 @@ import 'react-prevent-router-v6/dist/index.css';
 
 import CustomRoutes from './CustomRoutes';
 
-
 //
 const App = () => {
   //

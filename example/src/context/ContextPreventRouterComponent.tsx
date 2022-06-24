@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import { ContextPreventRouter } from './ContextPreventRouter';
 
+// import { useNavigatePrevent } from 'react-prevent-router-v6';
 import { useNavigatePrevent } from '../hooks/useNavigatePrevent';
 
 import NoticeHasIp from '../components/notice_has_ip/NoticeHasIp';
@@ -24,7 +25,7 @@ function ContextPreventRouterComponent({
     show_notice_has_ip,
     refHasInputFromAppLink,
 
-    handleHasInput,
+    handleToggleHasIp,
     changeHistory,
     handleClickPreventLink,
 
@@ -42,7 +43,7 @@ function ContextPreventRouterComponent({
         refHrefHasInput: refHrefHasInput,
         refHasInputFromAppLink: refHasInputFromAppLink,
         //
-        handleHasInput: handleHasInput,
+        handleToggleHasIp: handleToggleHasIp,
         changeHistory,
         handleClickPreventLink
       }}
